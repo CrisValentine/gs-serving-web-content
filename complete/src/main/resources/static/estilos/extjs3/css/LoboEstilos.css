@@ -1,0 +1,418 @@
+
+/*Controles*/
+div.ui-datepicker{
+ font-size:10px;
+}
+
+.Input1{
+   BORDER-RIGHT: #333333 1px solid;
+   BORDER-TOP: #333333 1px solid;
+   FONT-WEIGHT: normal;
+   FONT-SIZE: 10px;
+   BACKGROUND: #eeeeee;
+   BORDER-LEFT: #333333 1px solid;
+   COLOR: #000000;
+   BORDER-BOTTOM: #333333 1px solid;
+   FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.Combo{
+   BORDER-RIGHT: #333333 1px solid;
+   BORDER-TOP: #333333 1px solid;
+   FONT-WEIGHT: normal;
+   FONT-SIZE: 10px;
+   BACKGROUND: #eeeeee;
+   BORDER-LEFT: #333333 1px solid;
+   COLOR: #000000;
+   BORDER-BOTTOM: #333333 1px solid;
+   FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+   width:300px
+}
+
+.boton
+{
+                BORDER-RIGHT: #cc9900 1px solid;
+                BORDER-TOP: #cc9900 1px solid;
+                FONT-WEIGHT: normal;
+                FONT-SIZE: 9px;
+                BACKGROUND: #cc6600;
+                BORDER-LEFT: #cc9900 1px solid;
+                COLOR: #ffffff;
+                BORDER-BOTTOM: #cc9900 1px solid;
+                FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+                WIDTH:"80"
+}
+
+.Input1x{
+   BORDER-RIGHT: #333333 1px solid;
+   BORDER-TOP: #333333 1px solid;
+   FONT-WEIGHT: normal;
+   FONT-SIZE: 10px;
+   BACKGROUND: #ff0000;
+   BORDER-LEFT: #333333 1px solid;
+   COLOR: #ffffff;
+   BORDER-BOTTOM: #333333 1px solid;
+   FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+/*Password y usuario*/
+.LoginInput {
+	background: #FFFFFF;
+	border: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:gray;
+	font-weight: normal;
+	width: 95;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+/********** Estilo de tabla ************/
+#estiloTabla
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 10px;
+	margin-left:1px;
+	width: 800px;
+	text-align: left;
+	
+        border: 10px;
+        border-color: white;
+}
+#estiloTabla th
+{
+	font-size: 10px;
+	font-weight:bold;
+       
+	padding: 4px 2px;
+	color: white;
+	background-color:#e8941a;
+}
+#estiloTabla .odd
+{
+	padding: 8px;
+	color: #000000;
+	background: #FFFF99;
+           /*#e8edff; */
+}
+#estiloTabla .even
+{
+	padding: 8px;
+	color: #000000;
+}
+#estiloTabla tr:hover td
+{
+	background:#9ECEFE;
+	color: #669;
+}
+/********** Estilo de tabla ************/
+
+/*Etiquetas*/
+.txtGreyVer10 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #666666;
+        text-align:right;
+        }
+/*Encabezado de las paginas*/
+.txtGreyVer13B {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 13px;
+	color: #666666;
+	font-weight: bold;
+}
+/*Mensajes de error*/
+.txtRedVer10 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color:red;
+        }
+.txtHeader {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #003466;
+}
+
+.txtDate {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #33659A;
+}
+
+.txtGreyAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #666666;
+}
+
+.txtGreyAr11 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 11px;
+	color: #666666;
+}
+
+.txtGreyBAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.txtGreyVer9 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 9px;
+	color: #666666;
+}
+
+.txtGreyVer11 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #666666;
+}
+
+.txtlink {
+	color: #336699;
+}
+a.txtlink:link { text-decoration: none; color: #6699CC; }
+a.txtlink:active { text-decoration: none; color: #336699; }
+a.txtlink:visited { text-decoration: none; color: #336699; }
+a.txtlink:hover { text-decoration: underline; color: #6699CC; }
+
+.txtGrey2Ver10 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+	color: #999999;
+}
+
+.txtDGreyAr9 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #676767;
+}
+
+.txtDGreyVer9 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 9px;
+	color: #676767;
+}
+
+.txtGreyAr9 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 9px;
+	color: #9C9C9C;
+}
+
+.txtOranVer9 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 9px;
+	color: #CC6600;
+}
+
+.txtOranAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #CC6600;
+}
+
+.txtBlkAr9 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 9px;
+	color: #000000;
+}
+
+.txtBluAr9 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #336699;
+}
+
+.txtBluVer12 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	color: #336699;
+}
+
+.txtBluAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #336699;
+}
+
+.txtWhiAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.txtBluVer13B {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 13px;
+	color: #336699;
+	font-weight: bold;
+}
+
+.txtBluVer10 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+	color: #336699;
+}
+
+.txtBluVer11 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #336699;
+}
+
+.txtBluVer9 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 9px;
+	color: #6699CC;
+}
+
+.txtBlueAr11 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 11px;
+	color: #6F98C4;
+}
+
+.txtBlueBVer11 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #6F98C4;
+	font-weight: bold;
+}
+
+.txtBlueVer11 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #6F98C4;
+}
+
+.txtGreyVer11bold {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.txtAzulBAr10 {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 9px;
+	color: #CC6600;
+	font-weight: bold;
+}
+
+H1 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #666666;
+	font-weight: normal;
+}
+
+H2 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #3399CC;
+	font-weight: bold;
+}
+
+H3 {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+}
+.body {
+	font-style: italic; color:#006
+}
+.body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.body {
+	font-weight: bold;
+}
+/*EXPEDIENTE*/
+ul.menuList {border-bottom: 0px solid #00A9A6; margin: 0; padding-bottom: 19px; padding-left: 10px; size:auto}
+ul.menuList li {display: inline; list-style-type: none; margin: 0; padding: 0}
+
+ul.menuList li a {background: #ffffff; border: 1px solid #00A9A6; color: #666666; float: left; font-family: arial; font-size: 11px; font-weight: bold; line-height: 14px; margin-right: 2px; padding: 2px 10px 2px 10px; text-decoration: none}
+
+ul.menuListA {border-bottom: 0px solid #00A9A6; margin: 0; padding-bottom: 19px; padding-left: 10px; size:auto}
+ul.menuListA li {display: inline; list-style-type: none; margin: 0; padding: 0}
+
+ul.menuListA li a {background: #00A9A6; border: 1px solid #00A9A6; color: #FFFFFF; float: left; font-family: arial; font-size: 11px; font-weight: bold; line-height: 14px; margin-right: 2px; padding: 2px 10px 2px 10px; text-decoration: none}
+
+
+ul.menuList a:link.active, ul.menuList a:visited.active {background: #E0F7AA; border-bottom: 1px solid #ffffff; color: #000000}
+ul.menuList a:hover {color: #E0F7AA}
+ul.menuList li.selected a {background: #E0F7AA; border-bottom: 1px solid #E0F7AA; color: #000000; font-weight: bold}
+.tabcontents {border: 1px solid #999999;}
+div.tabcontent {padding: 5px; display: none}
+
+.Rec {background: #ffffff; border: 1px solid #00A9A6; color: #000000; float: left; font-family: arial; font-size: 12px; font-weight: bold; line-height: 14px; margin-right: 2px; padding: 2px 10px 2px 10px; text-decoration: none}
+
+.Cabeza{border: 1px solid #E0F7AA; padding: 5px; display: block; background: #00A9A6}
+/*
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+=================================================================== */
+
+.preload1 {background: url(../imagenes/blank_over.gif);}
+.preload2 {background: url(../imagenes/blank_overa.gif);}
+
+#nav {padding:0; margin:0; list-style:none; height:38px; background:#fff url(../imagenes/blank0.gif) repeat-x; position:relative; z-index:500; font-family:arial, verdana, sans-serif;}
+#nav li.top {display:block; float:left; height:38px;}
+
+/*#nav {padding:0; margin:0; list-style:none; height:36px; background:#fff url(../imagenes/blank.gif); position:relative; z-index:500; font-family:arial, verdana, sans-serif;}
+#nav li.top {display:block; float:left;}
+
+#nav li a.top_link {display:block; float:left; height:36px; line-height:27px; color:#ccc; text-decoration:none; font-size:11px; font-weight:bold; padding:0 0 0 12px; cursor:pointer;background: url(../imagenes/blank.gif);}
+*/
+#nav li a.top_link {display:block; float:left; height:35px; line-height:33px; color:#ccc; text-decoration:none; font-size:11px; font-weight:bold; padding:0 0 0 12px; cursor:pointer;background: url(../imagenes/blank.gif);}
+
+#nav li a.top_link span {float:left; display:block; padding:0 24px 0 12px; height:36px;background:url(../imagenes/blank.gif) right top;}
+#nav li a.top_link span.down {float:left; display:block; padding:0 24px 0 12px; height:36px; background:url(../imagenes/blanka.gif) no-repeat right top;}
+#nav li a.top_link:hover {color:#fff; background: url(../imagenes/blank_over.gif) no-repeat;}
+#nav li a.top_link:hover span {background:url(../imagenes/blank_over.gif) no-repeat right top;}
+#nav li a.top_link:hover span.down {background:url(../imagenes/blank_overa.gif) no-repeat right top;}
+
+#nav li:hover > a.top_link {color:#fff; background: url(../imagenes/blank_over.gif) no-repeat;}
+#nav li:hover > a.top_link span {background:url(../imagenes/blank_over.gif) no-repeat right top;}
+#nav li:hover > a.top_link span.down {background:url(../imagenes/blank_overa.gif) no-repeat right top;}
+
+/* Default list styling */
+
+#nav li:hover {position:relative; z-index:200;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#nav ul,
+#nav li:hover ul ul,
+#nav li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+#nav li:hover ul.sub
+{left:0; top:31px; background: #fff; padding:3px; border:1px solid #3a93d2; white-space:nowrap; width:180px; height:auto; z-index:300;}
+#nav li:hover ul.sub li
+{display:block; height:20px; position:relative; float:left; width:250px; font-weight:normal;}
+#nav li:hover ul.sub li a
+{display:block; font-size:11px; height:20px; width:180px; line-height:20px; text-indent:5px; color:#000; text-decoration:none;}
+#nav li ul.sub li a.fly
+{background:#fff url(../imagenes/arrow.gif) 170px 7px no-repeat;}
+#nav li:hover ul.sub li a:hover
+{background:#3a93d2; color:#fff;}
+#nav li:hover ul.sub li a.fly:hover
+{background:#3a93d2 url(../imagenes/arrow_over.gif) 90px 7px no-repeat; color:#fff;}
+
+#nav li:hover ul li:hover > a.fly {background:#3a93d2 url(../imagenes/arrow_over.gif) 90px 7px no-repeat; color:#fff;}
+
+#nav li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul
+{left:150px; top:-4px; background: #fff; padding:3px; border:1px solid #3a93d2; white-space:nowrap; width:180px; z-index:400; height:auto;}
